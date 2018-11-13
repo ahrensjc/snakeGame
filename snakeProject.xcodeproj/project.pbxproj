@@ -14,6 +14,9 @@
 		BE711AD021991534003B00E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE711ACE21991534003B00E9 /* LaunchScreen.storyboard */; };
 		BE711ADB21991534003B00E9 /* snakeProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE711ADA21991534003B00E9 /* snakeProjectTests.swift */; };
 		BE711AE621991534003B00E9 /* snakeProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE711AE521991534003B00E9 /* snakeProjectUITests.swift */; };
+		BE711AF4219A8403003B00E9 /* HighScoreVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE711AF3219A8403003B00E9 /* HighScoreVC.swift */; };
+		BE711AF6219A8E5A003B00E9 /* HighScoreCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE711AF5219A8E5A003B00E9 /* HighScoreCell.swift */; };
+		BE711AF8219A95C5003B00E9 /* GameVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE711AF7219A95C5003B00E9 /* GameVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		BE711AE121991534003B00E9 /* snakeProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = snakeProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE711AE521991534003B00E9 /* snakeProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = snakeProjectUITests.swift; sourceTree = "<group>"; };
 		BE711AE721991534003B00E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE711AF3219A8403003B00E9 /* HighScoreVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighScoreVC.swift; sourceTree = "<group>"; };
+		BE711AF5219A8E5A003B00E9 /* HighScoreCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighScoreCell.swift; sourceTree = "<group>"; };
+		BE711AF7219A95C5003B00E9 /* GameVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +105,10 @@
 			children = (
 				BE711AC521991533003B00E9 /* AppDelegate.swift */,
 				BE711AC721991533003B00E9 /* ViewController.swift */,
+				BE711AF5219A8E5A003B00E9 /* HighScoreCell.swift */,
+				BE711AF3219A8403003B00E9 /* HighScoreVC.swift */,
 				BE711AC921991533003B00E9 /* Main.storyboard */,
+				BE711AF7219A95C5003B00E9 /* GameVC.swift */,
 				BE711ACC21991534003B00E9 /* Assets.xcassets */,
 				BE711ACE21991534003B00E9 /* LaunchScreen.storyboard */,
 				BE711AD121991534003B00E9 /* Info.plist */,
@@ -257,6 +266,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE711AC821991533003B00E9 /* ViewController.swift in Sources */,
+				BE711AF4219A8403003B00E9 /* HighScoreVC.swift in Sources */,
+				BE711AF6219A8E5A003B00E9 /* HighScoreCell.swift in Sources */,
+				BE711AF8219A95C5003B00E9 /* GameVC.swift in Sources */,
 				BE711AC621991533003B00E9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
