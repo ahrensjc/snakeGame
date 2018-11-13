@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D5C230E219B5EAA001F46B7 /* ScoreSingleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D5C230D219B5EAA001F46B7 /* ScoreSingleton.swift */; };
 		BE711AC621991533003B00E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE711AC521991533003B00E9 /* AppDelegate.swift */; };
 		BE711AC821991533003B00E9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE711AC721991533003B00E9 /* ViewController.swift */; };
 		BE711ACB21991533003B00E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE711AC921991533003B00E9 /* Main.storyboard */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D5C230D219B5EAA001F46B7 /* ScoreSingleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreSingleton.swift; sourceTree = "<group>"; };
 		BE711AC221991533003B00E9 /* snakeProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = snakeProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE711AC521991533003B00E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BE711AC721991533003B00E9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -107,6 +109,7 @@
 				BE711AC721991533003B00E9 /* ViewController.swift */,
 				BE711AF5219A8E5A003B00E9 /* HighScoreCell.swift */,
 				BE711AF3219A8403003B00E9 /* HighScoreVC.swift */,
+				0D5C230D219B5EAA001F46B7 /* ScoreSingleton.swift */,
 				BE711AC921991533003B00E9 /* Main.storyboard */,
 				BE711AF7219A95C5003B00E9 /* GameVC.swift */,
 				BE711ACC21991534003B00E9 /* Assets.xcassets */,
@@ -267,6 +270,7 @@
 			files = (
 				BE711AC821991533003B00E9 /* ViewController.swift in Sources */,
 				BE711AF4219A8403003B00E9 /* HighScoreVC.swift in Sources */,
+				0D5C230E219B5EAA001F46B7 /* ScoreSingleton.swift in Sources */,
 				BE711AF6219A8E5A003B00E9 /* HighScoreCell.swift in Sources */,
 				BE711AF8219A95C5003B00E9 /* GameVC.swift in Sources */,
 				BE711AC621991533003B00E9 /* AppDelegate.swift in Sources */,
